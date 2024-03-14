@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://kit.fontawesome.com/cb33723844.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+    <header>
+          <nav>
+            <ul class="sidebar">
+                <li onclick= closeSidebar(event) ><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" fill ="white"/></svg></a>
+                </li>
+                <li>
+                    <a href="#HomePage" class="sideb">About</a>
+                </li>
+                <li>
+                    <a href="#Page1" class="sideb">About</a>
+                </li>
+                <li>
+                    <a href="#Page2" class="sideb">Skills</a>
+                    
+                </li>
+                <li>
+                    <a href="#Page3" class="sideb">Projects</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>CODEWITH<span>SENA</span></li>
+                <li class="hideonMobile">
+                    <a href="#HomePage" class="sideb">Home</a>
+                </li>
+                <li class="hideonMobile">
+                    <a href="#Page1" class="sideb">About</a>
+                </li>
+                <li class="hideonMobile">
+                    <a href="#Page2" class="sideb">Skills</a>
+                    
+                </li>
+                <li class="hideonMobile">
+                    <a href="#Page3" class="sideb">Projects</a>
+                </li>
+                <li class="menu-btn" onclick= showSidebar()>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" fill ="white"/></svg></a>
+                  </li>
+            </ul>
+          </nav>
+    </header>
+
+   <div class="Container">
+<section id="HomePage">
+<div class="FirstPage">
+<div class="welcomepage">
+    <h1>WELCOME.</h1>
+    <p>My name is Senamile Mthethwa, I am a <span> Software Developer.</span></p>
+</div>
+    <div class="icons">
+        <ul>
+            <li>
+                <a href="https://github.com/senamile" class="icon"><i class="fa-brands fa-square-github" style="color: black;"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/senamile-mthethwa-ba73aa136/" class="icon"><i class="fa-brands fa-linkedin" style="color: #083344;"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
+</section>
+
+<section id="Page1">
+    <div class="about">
+        <h2>About Me</h2>
+    <div class="About">
+        <div class="image">
+            <img src="MyPic.jpg" alt="">
+        </div>
+       <p>I am working towards my goal of being a great Software Developer. <br> <br> At beginning of February 2024
+        I made a decision to go back to coding. I have been teaching myself how to code using different programming languages. 
+        I have used a range of resources such as YouTube 'FreeCodeCamp', Udemy, and I am currently enrolled
+        with SheCodes. My journey has been challenging at times but overall thrilling. What exites
+        me the most about this journey is that I have hands-on experience. <br><br>
+        I am passionate about embarking on a career that combine creativity
+        with endless opportunities to develop things that have purpose and solve real problems.  
+
+       </p>
+    </div>
+</div>
+</section>
+
+<section id="Page2">
+    <div class="Skills">
+        <h3>Skills</h3>
+        <div class="skills">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>BOOTSTRAP</li>
+            <li>GIT</li>
+            <li>C#</li> 
+            <li>SQL</li>
+        </ul>
+    </div>
+    </div>
+</section>
+
+<section id="Page3">
+    
+    <div class="MyProjects">
+        <h3>My Projects</h3>
+    <div class="projects">
+    <div class="Pro">
+   <div class="Project">
+    <img src="MusicP.PNG" alt="">
+   </div>
+    <div class="project">
+        <h2>Music Player</h2>
+        <p>Styled and coded by me using <span>HTML, CSS </span>  and I also used a lit bit of <span>JAVASCRIPT</span> for side bar to accomodate small screens.</p>
+        <a href="https://github.com/senamile/musicplayer" target="_blank" class="button"> Source Code</a>
+        <a href="https://musicplayermc.netlify.app/" target="_blank" class="button"> Live Demo</a>
+    </div>
+</div>
+</div>
+</div>
+</section>
+</div> 
+
+<script src="script.js"></script>
+</body>
+</html>  
